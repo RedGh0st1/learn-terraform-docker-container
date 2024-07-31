@@ -1,0 +1,6 @@
+This configuration does the following:
+
+    •	Defines the Terraform configuration and required Docker provider.
+    •	Configures the Docker provider.
+    •	Defines a Docker image resource for “nginx”.
+    •	Defines a Docker container resource using the “nginx” image, mapping port 80 inside the container to port 8000 on the host.
